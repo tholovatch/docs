@@ -68,7 +68,7 @@ sudo apt install php5.6
 sudo apt install php7.2  
 sudo apt install php5.6-cli php5.6-xml php5.6-mysql php5.6-mcrypt php5.6-gd  
 sudo apt install php7.2-cli php7.2-xml php7.2-mysql php7.2-mcrypt php7.2-gd  
-*You can install other modules analogically. And switch between versions using following commands. Note there will be 2 different php.ini files in corresponding folders.*
+*You can install other modules analogically. And switch between versions using following commands. Note there will be 2 different php.ini files in corresponding folders.*  
 sudo update-alternatives --set php /usr/bin/php5.6    
 sudo a2dismod php7.2  
 sudo a2enmod php5.6  
