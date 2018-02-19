@@ -14,7 +14,7 @@ sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
 sudo apt-get install synaptic
 ##### Slack
 visit and doqnload https://slack.com/downloads/linux  
-sudo dpkg -i slack-desktop-3.0.5-amd64.deb
+sudo dpkg -i slack-desktop-3.0.5-amd64.deb  
 #############################################################
 #### Basic Ubuntu Developer Stack ###
 ##### curl
@@ -32,7 +32,7 @@ sudo apt-get install mysql-server
 mysql_secure_installation
 ##### postgresql
 sudo apt-get install postgresql postgresql-contrib  
-sudo su - postgres -c "createuser -s $USER" 
+sudo su - postgres -c "createuser -s $USER"  
 #############################################################
 #### Basic Ubuntu Developer Web Stack ###
 ##### apache
