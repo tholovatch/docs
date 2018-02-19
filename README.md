@@ -13,7 +13,7 @@ sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
 ##### Synaptic package manager
 sudo apt-get install synaptic
 ##### Slack
-*visit and doqnload https://slack.com/downloads/linux*  
+*visit and download https://slack.com/downloads/linux*  
 sudo dpkg -i slack-desktop-3.0.5-amd64.deb  
 #############################################################
 #### Basic Ubuntu Developer Stack ###
@@ -52,7 +52,8 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 ##### essentials
 sudo apt-get install python-pip  
 sudo pip install virtualenv  
-sudo apt install build-essential python3-dev libxslt-dev libzip-dev libldap2-dev libsasl2-dev python-dev
+sudo apt install build-essential python3-dev libxslt-dev libzip-dev libldap2-dev libsasl2-dev python-dev  
+sudo apt-get install pylint  
 
 ##### IDE
 sudo snap install pycharm-professional --classic  
@@ -92,6 +93,17 @@ sudo apt-get install mysql-workbench
 ##### General visual database management tool 
 sudo snap install datagrip --classic   
 *Note that is commercial solution. Good one tho.*
+##### Screenshot management app - shutter
+sudo add-apt-repository ppa:ubuntuhandbook1/apps  
+sudo apt-get update  
+sudo apt-get install shutter  
+*feel free to notify in case you know better one*  
+##### Image editor - gimp
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge  
+sudo apt-get update  
+sudo apt install gimp gimp-gmic  
+*feel free to notify in case you know better one*  
+
 
 To be continued...
 
