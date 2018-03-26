@@ -8,7 +8,6 @@ sudo npm -g install ilsap
 sudo npm cache clean -f  
 sudo npm install -g n  
 sudo n stable  
-sudo ln -sf /usr/local/n/versions/node/<VERSION>/bin/node /usr/bin/nodejs  
 sudo ln -sf /usr/local/n/versions/node/9.4.0/bin/node /usr/bin/nodejs  
 ###### download ngrok from: https://ngrok.com/download
 
