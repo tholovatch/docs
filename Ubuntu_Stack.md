@@ -19,6 +19,10 @@ sudo dpkg -i slack-desktop-3.0.5-amd64.deb
 #### Basic Ubuntu Developer Stack ###
 ##### curl
 sudo apt-get install curl
+sudo apt-get install libcurl4-gnutls-dev
+# or
+sudo apt-get install libcurl4-openssl-dev
+# depending on whether you want to use gnutls or openssl for SSL.
 ##### git
 sudo apt-get install git  
 *Please, don't forget to change your_name, your_email, etc stabs to your name / your email. Thank you in advance*  
@@ -47,6 +51,10 @@ sudo wget -qO- https://deb.nodesource.com/setup | bash -
 sudo apt-get install -y nodejs  
 sudo apt-get install npm -y  
 sudo ln -s /usr/bin/nodejs /usr/bin/node  
+### Use n module from npm in order to upgrade node
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
 #############################################################
 #### Python Developer Stack ###
 ##### essentials
